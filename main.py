@@ -3,8 +3,8 @@ import pandas as pd
 from streamlit_option_menu import option_menu
 
 # Load the datasets
-df = pd.read_csv("C:/Users/ht557/OneDrive/Desktop/Cheetcode for leetcode/LeetcodeDATA.csv")
-descriptions = pd.read_csv("C:/Users/ht557/OneDrive/Desktop/Cheetcode for leetcode/leetcode_dataset - lc.csv")
+df = pd.read_csv("LeetcodeDATA.csv")
+descriptions = pd.read_csv("leetcode_dataset.csv")
 
 # Set page title and favicon
 st.set_page_config(page_title='Code Snippet Finder', page_icon=":computer:")
